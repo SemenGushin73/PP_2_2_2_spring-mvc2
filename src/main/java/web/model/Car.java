@@ -4,8 +4,6 @@ import java.util.Objects;
 
 public class Car {
 
-    private Integer id;
-
     private String model;
 
     private String color;
@@ -19,14 +17,6 @@ public class Car {
         this.model = model;
         this.color = color;
         this.plate = plate;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getModel() {
